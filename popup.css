@@ -1,0 +1,26 @@
+body{
+    display:flex;
+    flex-direction: column;
+    background:rgba(230,230,230, 0.8);
+    padding:5px 15px;
+    width:600px;
+}
+
+header h1{
+    text-align:center;
+}
+
+div > ul{
+    padding:unset;
+}
+
+div > ul li {
+    list-style:none;
+    display:flex;
+    align-items:center;
+    margin:10px 0;
+}
+
+div > ul li > p{
+    margin: 0 0 0 15px;
+}
