@@ -10,17 +10,31 @@ header h1{
     text-align:center;
 }
 
-div > ul{
+div ul{
     padding:unset;
 }
 
-div > ul li {
+div ul li {
     list-style:none;
     display:flex;
-    align-items:center;
     margin:10px 0;
+    justify-content:space-between;
 }
 
-div > ul li > p{
+div ul li span:first-of-type {
+    width:100px;
+    text-align:right;
+    font-weight:bold;
+}
+
+div ul li span:last-of-type {
+    width:100px;
+    text-align:right;
+    font-weight:bold;
+}
+
+div ul li p{
+    width:100%;
+    text-align:left;
     margin: 0 0 0 15px;
 }
